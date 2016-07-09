@@ -12,8 +12,8 @@
 		BD3AAA6D1CE5CD330056286D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3AAA6C1CE5CD330056286D /* Assets.xcassets */; };
 		BD3AAA701CE5CD330056286D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3AAA6E1CE5CD330056286D /* LaunchScreen.storyboard */; };
 		BD3AAA7C1CE5D5290056286D /* SimpleCoreDataHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3AAA7B1CE5D5290056286D /* SimpleCoreDataHome.swift */; };
+		BD83BE7F1D30E70400E0FA53 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD83BE7E1D30E70400E0FA53 /* README.md */; };
 		BDF0F0B21CE5D9E800997072 /* simpleCoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF0F0B01CE5D9E800997072 /* simpleCoredata.xcdatamodeld */; };
-		BDF0F0B51CE5DAA600997072 /* Index in Resources */ = {isa = PBXBuildFile; fileRef = BDF0F0B31CE5DAA600997072 /* Index */; };
 		BDF0F0B61CE5DAA600997072 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = BDF0F0B41CE5DAA600997072 /* Notes */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 		BD3AAA6F1CE5CD330056286D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD3AAA711CE5CD330056286D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3AAA7B1CE5D5290056286D /* SimpleCoreDataHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCoreDataHome.swift; sourceTree = "<group>"; };
+		BD83BE7E1D30E70400E0FA53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BDF0F0B11CE5D9E800997072 /* simpleCoredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simpleCoredata.xcdatamodel; sourceTree = "<group>"; };
-		BDF0F0B31CE5DAA600997072 /* Index */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Index; sourceTree = "<group>"; };
 		BDF0F0B41CE5DAA600997072 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 			children = (
 				BD3AAA631CE5CD330056286D /* AppDelegate.swift */,
 				BD3AAA691CE5CD330056286D /* Main.storyboard */,
-				BDF0F0B31CE5DAA600997072 /* Index */,
+				BD83BE7E1D30E70400E0FA53 /* README.md */,
 				BDF0F0B41CE5DAA600997072 /* Notes */,
 				BD3AAA791CE5CDE50056286D /* Base */,
 				BD3AAA781CE5CDE10056286D /* User Interface */,
@@ -174,7 +174,6 @@
 			files = (
 				BD3AAA701CE5CD330056286D /* LaunchScreen.storyboard in Resources */,
 				BDF0F0B61CE5DAA600997072 /* Notes in Resources */,
-				BDF0F0B51CE5DAA600997072 /* Index in Resources */,
 				BD3AAA6D1CE5CD330056286D /* Assets.xcassets in Resources */,
 				BD3AAA6B1CE5CD330056286D /* Main.storyboard in Resources */,
 			);
@@ -189,6 +188,7 @@
 			files = (
 				BD3AAA641CE5CD330056286D /* AppDelegate.swift in Sources */,
 				BD3AAA7C1CE5D5290056286D /* SimpleCoreDataHome.swift in Sources */,
+				BD83BE7F1D30E70400E0FA53 /* README.md in Sources */,
 				BDF0F0B21CE5D9E800997072 /* simpleCoredata.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
