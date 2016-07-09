@@ -13,6 +13,7 @@
 		BD3AAA701CE5CD330056286D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3AAA6E1CE5CD330056286D /* LaunchScreen.storyboard */; };
 		BD3AAA7C1CE5D5290056286D /* SimpleCoreDataHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3AAA7B1CE5D5290056286D /* SimpleCoreDataHome.swift */; };
 		BD83BE7F1D30E70400E0FA53 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD83BE7E1D30E70400E0FA53 /* README.md */; };
+		BD83BE821D30EBF200E0FA53 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83BE811D30EBF200E0FA53 /* GCDViewController.swift */; };
 		BDF0F0B21CE5D9E800997072 /* simpleCoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF0F0B01CE5D9E800997072 /* simpleCoredata.xcdatamodeld */; };
 		BDF0F0B61CE5DAA600997072 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = BDF0F0B41CE5DAA600997072 /* Notes */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		BD3AAA711CE5CD330056286D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3AAA7B1CE5D5290056286D /* SimpleCoreDataHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCoreDataHome.swift; sourceTree = "<group>"; };
 		BD83BE7E1D30E70400E0FA53 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BD83BE811D30EBF200E0FA53 /* GCDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		BDF0F0B11CE5D9E800997072 /* simpleCoredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simpleCoredata.xcdatamodel; sourceTree = "<group>"; };
 		BDF0F0B41CE5DAA600997072 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 		BD3AAA771CE5CDDE0056286D /* Concepts */ = {
 			isa = PBXGroup;
 			children = (
+				BD83BE801D30EBB400E0FA53 /* GCD */,
 				BDF0F0AF1CE5D9D300997072 /* Coredata */,
 			);
 			name = Concepts;
@@ -102,6 +105,14 @@
 			children = (
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		BD83BE801D30EBB400E0FA53 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				BD83BE811D30EBF200E0FA53 /* GCDViewController.swift */,
+			);
+			name = GCD;
 			sourceTree = "<group>";
 		};
 		BDF0F0AF1CE5D9D300997072 /* Coredata */ = {
@@ -187,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3AAA641CE5CD330056286D /* AppDelegate.swift in Sources */,
+				BD83BE821D30EBF200E0FA53 /* GCDViewController.swift in Sources */,
 				BD3AAA7C1CE5D5290056286D /* SimpleCoreDataHome.swift in Sources */,
 				BD83BE7F1D30E70400E0FA53 /* README.md in Sources */,
 				BDF0F0B21CE5D9E800997072 /* simpleCoredata.xcdatamodeld in Sources */,
