@@ -37,7 +37,7 @@
 		F817576F2128ABCC00FD151D /* Refresher-SWIFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Refresher-SWIFTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81757732128ABCC00FD151D /* Refresher_SWIFTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresher_SWIFTTests.swift; sourceTree = "<group>"; };
 		F81757752128ABCC00FD151D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F817577E2128AC1200FD151D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		F817577E2128AC1200FD151D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Refresher-SWIFT/SupportingFiles/README.md"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +80,13 @@
 			isa = PBXGroup;
 			children = (
 				F817575E2128ABCC00FD151D /* AppDelegate.swift */,
-				F81757602128ABCC00FD151D /* ViewController.swift */,
-				F81757622128ABCC00FD151D /* Main.storyboard */,
-				F81757652128ABCC00FD151D /* Assets.xcassets */,
-				F817577E2128AC1200FD151D /* README.md */,
-				F81757672128ABCC00FD151D /* LaunchScreen.storyboard */,
-				F817576A2128ABCC00FD151D /* Info.plist */,
+				F81757802128E19100FD151D /* View */,
+				F81757812128E19C00FD151D /* Model */,
+				F81757822128E1A100FD151D /* Controller */,
+				F81757832128E1A900FD151D /* Utilities */,
+				F81757842128E1B300FD151D /* Resources */,
+				F81757852128E1C000FD151D /* Configuration */,
+				F81757862128E1CA00FD151D /* SupportingFiles */,
 			);
 			path = "Refresher-SWIFT";
 			sourceTree = "<group>";
@@ -97,6 +98,61 @@
 				F81757752128ABCC00FD151D /* Info.plist */,
 			);
 			path = "Refresher-SWIFTTests";
+			sourceTree = "<group>";
+		};
+		F81757802128E19100FD151D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F81757672128ABCC00FD151D /* LaunchScreen.storyboard */,
+				F81757622128ABCC00FD151D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F81757812128E19C00FD151D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F81757822128E1A100FD151D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F81757602128ABCC00FD151D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F81757832128E1A900FD151D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F81757842128E1B300FD151D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F81757652128ABCC00FD151D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F81757852128E1C000FD151D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F817576A2128ABCC00FD151D /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F81757862128E1CA00FD151D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F817577E2128AC1200FD151D /* README.md */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
