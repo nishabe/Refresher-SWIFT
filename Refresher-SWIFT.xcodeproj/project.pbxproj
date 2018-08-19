@@ -15,7 +15,7 @@
 		F817577F2128AC1200FD151D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F817577E2128AC1200FD151D /* README.md */; };
 		F8A50B512128FC1400830D10 /* Controls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B4F2128FC1400830D10 /* Controls.storyboard */; };
 		F8A50B542128FC5000830D10 /* Concepts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B522128FC5000830D10 /* Concepts.storyboard */; };
-		F8A50B592129079600830D10 /* SessionDataTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A50B582129079600830D10 /* SessionDataTaskViewController.swift */; };
+		F8A50B5B21290BFA00830D10 /* SessionDataTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A50B5A21290BFA00830D10 /* SessionDataTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		F817577E2128AC1200FD151D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Refresher-SWIFT/SupportingFiles/README.md"; sourceTree = SOURCE_ROOT; };
 		F8A50B502128FC1400830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Controls.storyboard"; sourceTree = "<group>"; };
 		F8A50B532128FC5000830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Concepts.storyboard"; sourceTree = "<group>"; };
-		F8A50B582129079600830D10 /* SessionDataTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskViewController.swift; sourceTree = "<group>"; };
+		F8A50B5A21290BFA00830D10 /* SessionDataTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +180,7 @@
 		F8A50B572129077C00830D10 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				F8A50B582129079600830D10 /* SessionDataTaskViewController.swift */,
+				F8A50B5A21290BFA00830D10 /* SessionDataTaskViewController.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A50B592129079600830D10 /* SessionDataTaskViewController.swift in Sources */,
+				F8A50B5B21290BFA00830D10 /* SessionDataTaskViewController.swift in Sources */,
 				F817575F2128ABCC00FD151D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
