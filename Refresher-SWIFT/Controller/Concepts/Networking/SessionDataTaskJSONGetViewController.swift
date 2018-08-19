@@ -8,8 +8,9 @@
 
 import UIKit
 
-class SessionDataTaskViewController: UIViewController {
+class SessionDataTaskJSONGetViewController: UIViewController {
     
+
     @IBOutlet weak var resultTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()

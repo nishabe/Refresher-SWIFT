@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CodableViewController: UIViewController {
+class SessionDataTaskCodableGetViewController: UIViewController {
     
     @IBOutlet weak var resultTextView: UITextView!
     override func viewDidLoad() {

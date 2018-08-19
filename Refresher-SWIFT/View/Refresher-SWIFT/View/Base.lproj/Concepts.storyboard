@@ -28,8 +28,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SessionDataTask with JSON Serzn." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANd-Hq-Vgd">
-                                                    <rect key="frame" x="16" y="12" width="317" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SessionDataTask -GET- with JSON" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANd-Hq-Vgd">
+                                                    <rect key="frame" x="16" y="12" width="265" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -38,7 +38,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Bg3-k8-4Ab" kind="show" id="l1S-t0-e8c"/>
+                                            <segue destination="Bg3-k8-4Ab" kind="show" id="vCY-mB-mVp"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Tl6-H3-9Wv">
@@ -48,7 +48,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SessionDataTask with Codable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Req-ua-GwC">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SessionDataTask -GET- with Codable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Req-ua-GwC">
                                                     <rect key="frame" x="16" y="12" width="317" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -59,6 +59,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="IBz-gd-6ty" kind="show" id="cdm-Ub-o9Y"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="0hS-8q-W2V">
+                                        <rect key="frame" x="0.0" y="143.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0hS-8q-W2V" id="3CK-WE-hyZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SessionDataTask -POST- with Codable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75s-yB-Suw">
+                                                    <rect key="frame" x="16" y="12" width="317" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bS3-0M-U8j" kind="show" id="IIs-mb-XBB"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -75,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="31.199999999999999" y="-484.40779610194909"/>
         </scene>
-        <!--Session Data Task View Controller-->
+        <!--Session Data TaskJSON Get View Controller-->
         <scene sceneID="6WS-h0-z3z">
             <objects>
-                <viewController id="Bg3-k8-4Ab" customClass="SessionDataTaskViewController" customModule="Refresher_SWIFT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Bg3-k8-4Ab" customClass="SessionDataTaskJSONGetViewController" customModule="Refresher_SWIFT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LhP-GO-08m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,17 +116,17 @@
                         <viewLayoutGuide key="safeArea" id="AVK-fa-DRa"/>
                     </view>
                     <connections>
-                        <outlet property="resultTextView" destination="MxS-md-hw0" id="NWc-d8-tsd"/>
+                        <outlet property="resultTextView" destination="MxS-md-hw0" id="cws-Ah-pgQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W0N-3w-tdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="815" y="-1330"/>
         </scene>
-        <!--Codable View Controller-->
+        <!--Session Data Task Codable Get View Controller-->
         <scene sceneID="7QB-zY-aVw">
             <objects>
-                <viewController id="IBz-gd-6ty" customClass="CodableViewController" customModule="Refresher_SWIFT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IBz-gd-6ty" customClass="SessionDataTaskCodableGetViewController" customModule="Refresher_SWIFT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t8M-Jp-94v">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,6 +155,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aOy-O4-Wd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="864.79999999999995" y="-1268.8155922038982"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lmx-EU-J7Q">
+            <objects>
+                <viewController id="bS3-0M-U8j" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="626-7I-6ny">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dPM-Yd-QfS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zcb-N0-vM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="-1215"/>
         </scene>
         <!--Concepts-->
         <scene sceneID="JkX-ca-Fj7">
