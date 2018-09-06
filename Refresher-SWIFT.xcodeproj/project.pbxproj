@@ -13,6 +13,7 @@
 		F81757692128ABCC00FD151D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81757672128ABCC00FD151D /* LaunchScreen.storyboard */; };
 		F81757742128ABCC00FD151D /* Refresher_SWIFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81757732128ABCC00FD151D /* Refresher_SWIFTTests.swift */; };
 		F817577F2128AC1200FD151D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F817577E2128AC1200FD151D /* README.md */; };
+		F81C52EA21417DD600C2A31E /* SessionDataTaskGETExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */; };
 		F8A50B512128FC1400830D10 /* Controls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B4F2128FC1400830D10 /* Controls.storyboard */; };
 		F8A50B542128FC5000830D10 /* Concepts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B522128FC5000830D10 /* Concepts.storyboard */; };
 		F8A50B5F2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */; };
@@ -41,6 +42,7 @@
 		F81757732128ABCC00FD151D /* Refresher_SWIFTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresher_SWIFTTests.swift; sourceTree = "<group>"; };
 		F81757752128ABCC00FD151D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F817577E2128AC1200FD151D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Refresher-SWIFT/SupportingFiles/README.md"; sourceTree = SOURCE_ROOT; };
+		F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskGETExample.swift; sourceTree = "<group>"; };
 		F8A50B502128FC1400830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Controls.storyboard"; sourceTree = "<group>"; };
 		F8A50B532128FC5000830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Concepts.storyboard"; sourceTree = "<group>"; };
 		F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskCodablePostViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				F8A50B642129278F00830D10 /* SessionDataTaskJSONGetViewController.swift */,
 				F8A50B66212927D000830D10 /* SessionDataTaskCodableGetViewController.swift */,
 				F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */,
+				F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				F8A50B5F2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift in Sources */,
 				F817575F2128ABCC00FD151D /* AppDelegate.swift in Sources */,
+				F81C52EA21417DD600C2A31E /* SessionDataTaskGETExample.swift in Sources */,
 				F8A50B67212927D000830D10 /* SessionDataTaskCodableGetViewController.swift in Sources */,
 				F8A50B652129278F00830D10 /* SessionDataTaskJSONGetViewController.swift in Sources */,
 			);
