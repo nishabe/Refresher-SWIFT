@@ -48,7 +48,6 @@ class SessionDataTaskGETExample: UIViewController {
                              successCompletionHandler : @escaping successCompletionBlock,
                              failureCompletionHandler : @escaping failureCompletionBlock) {
         let dataTask = URLSession.shared.dataTask(with: url) { (data, response, error) in
-            
             guard let data = data, error == nil else {
                 failureCompletionHandler (response, error! as NSError)
                 return
