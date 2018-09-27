@@ -141,6 +141,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="vjR-NJ-x3F" kind="show" id="7Pc-5g-NS5"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -276,6 +279,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G4r-2I-8Vv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1109.5999999999999" y="-1139.2803598200901"/>
+        </scene>
+        <!--Geo Coding View Controller-->
+        <scene sceneID="WhY-94-noK">
+            <objects>
+                <viewController id="vjR-NJ-x3F" customClass="GeoCodingViewController" customModule="Refresher_SWIFT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7s1-P9-QqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="tUM-6s-5hi">
+                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vjR-NJ-x3F" id="Fhe-ia-lcC"/>
+                                </connections>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LM0-VH-Prj">
+                                <rect key="frame" x="16" y="170" width="343" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="OW7-Fh-iNL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LM0-VH-Prj" firstAttribute="leading" secondItem="7s1-P9-QqZ" secondAttribute="leadingMargin" id="AtB-dK-hIO"/>
+                            <constraint firstItem="LM0-VH-Prj" firstAttribute="centerX" secondItem="tUM-6s-5hi" secondAttribute="centerX" id="MBf-cj-5JY"/>
+                            <constraint firstItem="LM0-VH-Prj" firstAttribute="top" secondItem="tUM-6s-5hi" secondAttribute="bottom" constant="50" id="OZj-qS-Jyc"/>
+                            <constraint firstItem="tUM-6s-5hi" firstAttribute="leading" secondItem="7s1-P9-QqZ" secondAttribute="leading" id="QKD-bs-7U3"/>
+                            <constraint firstItem="tUM-6s-5hi" firstAttribute="top" secondItem="Y4w-YF-jM3" secondAttribute="top" id="YYh-4a-nAj"/>
+                            <constraint firstItem="tUM-6s-5hi" firstAttribute="centerX" secondItem="7s1-P9-QqZ" secondAttribute="centerX" id="hHC-31-K1B"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y4w-YF-jM3"/>
+                    </view>
+                    <connections>
+                        <outlet property="placeLabel" destination="LM0-VH-Prj" id="9Af-fi-duk"/>
+                        <outlet property="searchBar" destination="tUM-6s-5hi" id="NHV-NC-6in"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y4t-hc-A40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1160.8" y="-1078.1109445277361"/>
         </scene>
         <!--Concepts-->
         <scene sceneID="JkX-ca-Fj7">
