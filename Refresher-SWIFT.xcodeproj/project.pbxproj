@@ -14,6 +14,7 @@
 		F81757742128ABCC00FD151D /* Refresher_SWIFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81757732128ABCC00FD151D /* Refresher_SWIFTTests.swift */; };
 		F817577F2128AC1200FD151D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F817577E2128AC1200FD151D /* README.md */; };
 		F81C52EA21417DD600C2A31E /* SessionDataTaskGETExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */; };
+		F83CA17C215D47D800FB86ED /* CurrentLlocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CA17B215D47D800FB86ED /* CurrentLlocationViewController.swift */; };
 		F8A50B512128FC1400830D10 /* Controls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B4F2128FC1400830D10 /* Controls.storyboard */; };
 		F8A50B542128FC5000830D10 /* Concepts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B522128FC5000830D10 /* Concepts.storyboard */; };
 		F8A50B5F2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */; };
@@ -43,6 +44,7 @@
 		F81757752128ABCC00FD151D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F817577E2128AC1200FD151D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "Refresher-SWIFT/SupportingFiles/README.md"; sourceTree = SOURCE_ROOT; };
 		F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskGETExample.swift; sourceTree = "<group>"; };
+		F83CA17B215D47D800FB86ED /* CurrentLlocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLlocationViewController.swift; sourceTree = "<group>"; };
 		F8A50B502128FC1400830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Controls.storyboard"; sourceTree = "<group>"; };
 		F8A50B532128FC5000830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Concepts.storyboard"; sourceTree = "<group>"; };
 		F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskCodablePostViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				F8A50B552129075F00830D10 /* Controls */,
 				F8A50B562129076A00830D10 /* Concepts */,
+				F83CA178215D454800FB86ED /* Core Location */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,6 +169,14 @@
 				F817577E2128AC1200FD151D /* README.md */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F83CA178215D454800FB86ED /* Core Location */ = {
+			isa = PBXGroup;
+			children = (
+				F83CA17B215D47D800FB86ED /* CurrentLlocationViewController.swift */,
+			);
+			path = "Core Location";
 			sourceTree = "<group>";
 		};
 		F8A50B552129075F00830D10 /* Controls */ = {
@@ -244,9 +255,11 @@
 				TargetAttributes = {
 					F817575A2128ABCC00FD151D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					F817576E2128ABCC00FD151D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = F817575A2128ABCC00FD151D;
 					};
 				};
@@ -298,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83CA17C215D47D800FB86ED /* CurrentLlocationViewController.swift in Sources */,
 				F8A50B5F2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift in Sources */,
 				F817575F2128ABCC00FD151D /* AppDelegate.swift in Sources */,
 				F81C52EA21417DD600C2A31E /* SessionDataTaskGETExample.swift in Sources */,
@@ -487,7 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AmminiInc.Refresher-SWIFT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -505,7 +519,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AmminiInc.Refresher-SWIFT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -525,7 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AmminiInc.Refresher-SWIFTTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refresher-SWIFT.app/Refresher-SWIFT";
 			};
@@ -546,7 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AmminiInc.Refresher-SWIFTTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Refresher-SWIFT.app/Refresher-SWIFT";
 			};
