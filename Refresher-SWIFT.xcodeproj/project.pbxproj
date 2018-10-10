@@ -16,11 +16,15 @@
 		F81C52EA21417DD600C2A31E /* SessionDataTaskGETExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */; };
 		F83CA17C215D47D800FB86ED /* CurrentLlocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CA17B215D47D800FB86ED /* CurrentLlocationViewController.swift */; };
 		F83CA17E215D59B800FB86ED /* GeoCodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CA17D215D59B800FB86ED /* GeoCodingViewController.swift */; };
+		F844EF7E216E50320067C937 /* big_buck_bunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F844EF7D216E50310067C937 /* big_buck_bunny.mp4 */; };
+		F844EF83216E51500067C937 /* AVPlayerSampleTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844EF82216E51500067C937 /* AVPlayerSampleTwoViewController.swift */; };
+		F844EF85216E54BD0067C937 /* AVPlayerSampleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844EF84216E54BD0067C937 /* AVPlayerSampleOneViewController.swift */; };
 		F8A50B512128FC1400830D10 /* Controls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B4F2128FC1400830D10 /* Controls.storyboard */; };
 		F8A50B542128FC5000830D10 /* Concepts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A50B522128FC5000830D10 /* Concepts.storyboard */; };
 		F8A50B5F2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */; };
 		F8A50B652129278F00830D10 /* SessionDataTaskJSONGetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A50B642129278F00830D10 /* SessionDataTaskJSONGetViewController.swift */; };
 		F8A50B67212927D000830D10 /* SessionDataTaskCodableGetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A50B66212927D000830D10 /* SessionDataTaskCodableGetViewController.swift */; };
+		F8B677AA2166A5EA006FE1F4 /* HorizontalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B677A92166A5EA006FE1F4 /* HorizontalScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +51,15 @@
 		F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskGETExample.swift; sourceTree = "<group>"; };
 		F83CA17B215D47D800FB86ED /* CurrentLlocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLlocationViewController.swift; sourceTree = "<group>"; };
 		F83CA17D215D59B800FB86ED /* GeoCodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoCodingViewController.swift; sourceTree = "<group>"; };
+		F844EF7D216E50310067C937 /* big_buck_bunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = big_buck_bunny.mp4; sourceTree = "<group>"; };
+		F844EF82216E51500067C937 /* AVPlayerSampleTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerSampleTwoViewController.swift; sourceTree = "<group>"; };
+		F844EF84216E54BD0067C937 /* AVPlayerSampleOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerSampleOneViewController.swift; sourceTree = "<group>"; };
 		F8A50B502128FC1400830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Controls.storyboard"; sourceTree = "<group>"; };
 		F8A50B532128FC5000830D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Refresher-SWIFT/View/Base.lproj/Concepts.storyboard"; sourceTree = "<group>"; };
 		F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskCodablePostViewController.swift; sourceTree = "<group>"; };
 		F8A50B642129278F00830D10 /* SessionDataTaskJSONGetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataTaskJSONGetViewController.swift; sourceTree = "<group>"; };
 		F8A50B66212927D000830D10 /* SessionDataTaskCodableGetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataTaskCodableGetViewController.swift; sourceTree = "<group>"; };
+		F8B677A92166A5EA006FE1F4 /* HorizontalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,7 @@
 		F81757822128E1A100FD151D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F844EF7F216E50490067C937 /* MediaPlay */,
 				F8A50B552129075F00830D10 /* Controls */,
 				F8A50B562129076A00830D10 /* Concepts */,
 				F83CA178215D454800FB86ED /* Core Location */,
@@ -152,6 +161,7 @@
 		F81757842128E1B300FD151D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F844EF7D216E50310067C937 /* big_buck_bunny.mp4 */,
 				F81757652128ABCC00FD151D /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -182,9 +192,19 @@
 			path = "Core Location";
 			sourceTree = "<group>";
 		};
+		F844EF7F216E50490067C937 /* MediaPlay */ = {
+			isa = PBXGroup;
+			children = (
+				F844EF84216E54BD0067C937 /* AVPlayerSampleOneViewController.swift */,
+				F844EF82216E51500067C937 /* AVPlayerSampleTwoViewController.swift */,
+			);
+			path = MediaPlay;
+			sourceTree = "<group>";
+		};
 		F8A50B552129075F00830D10 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				F8B677A92166A5EA006FE1F4 /* HorizontalScrollViewController.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -291,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F844EF7E216E50320067C937 /* big_buck_bunny.mp4 in Resources */,
 				F81757692128ABCC00FD151D /* LaunchScreen.storyboard in Resources */,
 				F81757662128ABCC00FD151D /* Assets.xcassets in Resources */,
 				F8A50B512128FC1400830D10 /* Controls.storyboard in Resources */,
@@ -314,13 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F844EF83216E51500067C937 /* AVPlayerSampleTwoViewController.swift in Sources */,
 				F83CA17C215D47D800FB86ED /* CurrentLlocationViewController.swift in Sources */,
 				F8A50B5F2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift in Sources */,
 				F817575F2128ABCC00FD151D /* AppDelegate.swift in Sources */,
 				F81C52EA21417DD600C2A31E /* SessionDataTaskGETExample.swift in Sources */,
 				F8A50B67212927D000830D10 /* SessionDataTaskCodableGetViewController.swift in Sources */,
+				F844EF85216E54BD0067C937 /* AVPlayerSampleOneViewController.swift in Sources */,
 				F83CA17E215D59B800FB86ED /* GeoCodingViewController.swift in Sources */,
 				F8A50B652129278F00830D10 /* SessionDataTaskJSONGetViewController.swift in Sources */,
+				F8B677AA2166A5EA006FE1F4 /* HorizontalScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
