@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F802ED882177B0C4002D70C9 /* SimpleTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802ED872177B0C4002D70C9 /* SimpleTableTableViewController.swift */; };
+		F802ED8A21791D02002D70C9 /* SessionDataTaskWithURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802ED8921791D02002D70C9 /* SessionDataTaskWithURLRequest.swift */; };
+		F802ED8E21796DBE002D70C9 /* ImagePickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802ED8D21796DBE002D70C9 /* ImagePickViewController.swift */; };
 		F817575F2128ABCC00FD151D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817575E2128ABCC00FD151D /* AppDelegate.swift */; };
 		F81757642128ABCC00FD151D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81757622128ABCC00FD151D /* Main.storyboard */; };
 		F81757662128ABCC00FD151D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81757652128ABCC00FD151D /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F802ED872177B0C4002D70C9 /* SimpleTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableTableViewController.swift; sourceTree = "<group>"; };
+		F802ED8921791D02002D70C9 /* SessionDataTaskWithURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDataTaskWithURLRequest.swift; sourceTree = "<group>"; };
+		F802ED8D21796DBE002D70C9 /* ImagePickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickViewController.swift; sourceTree = "<group>"; };
 		F817575B2128ABCC00FD151D /* Refresher-SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Refresher-SWIFT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F817575E2128ABCC00FD151D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F81757632128ABCC00FD151D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +86,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F802ED862177B097002D70C9 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F802ED872177B0C4002D70C9 /* SimpleTableTableViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		F802ED8B21796D8C002D70C9 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F8B677A92166A5EA006FE1F4 /* HorizontalScrollViewController.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		F802ED8C21796DA5002D70C9 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				F802ED8D21796DBE002D70C9 /* ImagePickViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		F81757522128ABCC00FD151D = {
 			isa = PBXGroup;
 			children = (
@@ -143,10 +173,8 @@
 		F81757822128E1A100FD151D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F844EF7F216E50490067C937 /* MediaPlay */,
 				F8A50B552129075F00830D10 /* Controls */,
 				F8A50B562129076A00830D10 /* Concepts */,
-				F83CA178215D454800FB86ED /* Core Location */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,7 +232,10 @@
 		F8A50B552129075F00830D10 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				F8B677A92166A5EA006FE1F4 /* HorizontalScrollViewController.swift */,
+				F802ED8C21796DA5002D70C9 /* Camera */,
+				F802ED862177B097002D70C9 /* TableView */,
+				F802ED8B21796D8C002D70C9 /* ScrollView */,
+				F844EF7F216E50490067C937 /* MediaPlay */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -213,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A50B572129077C00830D10 /* Networking */,
+				F83CA178215D454800FB86ED /* Core Location */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
@@ -224,6 +256,7 @@
 				F8A50B66212927D000830D10 /* SessionDataTaskCodableGetViewController.swift */,
 				F8A50B5E2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift */,
 				F81C52E921417DD600C2A31E /* SessionDataTaskGETExample.swift */,
+				F802ED8921791D02002D70C9 /* SessionDataTaskWithURLRequest.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -339,12 +372,15 @@
 				F83CA17C215D47D800FB86ED /* CurrentLlocationViewController.swift in Sources */,
 				F8A50B5F2129262F00830D10 /* SessionDataTaskCodablePostViewController.swift in Sources */,
 				F817575F2128ABCC00FD151D /* AppDelegate.swift in Sources */,
+				F802ED882177B0C4002D70C9 /* SimpleTableTableViewController.swift in Sources */,
 				F81C52EA21417DD600C2A31E /* SessionDataTaskGETExample.swift in Sources */,
+				F802ED8E21796DBE002D70C9 /* ImagePickViewController.swift in Sources */,
 				F8A50B67212927D000830D10 /* SessionDataTaskCodableGetViewController.swift in Sources */,
 				F844EF85216E54BD0067C937 /* AVPlayerSampleOneViewController.swift in Sources */,
 				F83CA17E215D59B800FB86ED /* GeoCodingViewController.swift in Sources */,
 				F8A50B652129278F00830D10 /* SessionDataTaskJSONGetViewController.swift in Sources */,
 				F8B677AA2166A5EA006FE1F4 /* HorizontalScrollViewController.swift in Sources */,
+				F802ED8A21791D02002D70C9 /* SessionDataTaskWithURLRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,10 +13,10 @@ class SessionDataTaskCodablePostViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        getData()
+        postData()
     }
     
-    func getData() {
+    func postData() {
         let config = URLSessionConfiguration.default
         config.waitsForConnectivity = true
         let defaultSession = URLSession(configuration: config)
